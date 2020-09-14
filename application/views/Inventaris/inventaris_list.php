@@ -16,7 +16,7 @@ $this->load->view('templates/header');
 						<p class="category">Kantor Dinas Komunikasi dan Informatika, Kec. Kota Kudus, Kab. Kudus, Jawa Tengah</p>
 						<div>
 							<?php if ($this->session->userdata('status') == 'admin') {
-								echo anchor(site_url("Laporan/coba_cetak"), '<i class="fa fa-file"></i> Cetak', 'class="btn btn-dark"');
+								echo anchor(site_url("Laporan/inventaris"), '<i class="fa fa-file"></i> Cetak', 'class="btn btn-dark"');
 							} ?>
 						</div>
 					</div>
